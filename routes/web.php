@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//add by thinhlv
+Route::get('foo', function () {
+    return 'Hello World - Bài 5 : Cấu trúc của Route';
+});
